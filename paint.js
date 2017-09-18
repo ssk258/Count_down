@@ -10,8 +10,8 @@ var DEFAULT_LEFT=50;//默认距离左边位置
 var DIGITAL_WIDTH=(RADIUS*2+1)*digit[0][0].length+30;
 
 //倒计时时间
-var minute=66;
-var second=66;
+var minute=1;
+var second=0;
 
 function Ball(x, y, vx, vy, color){
     //记得赋值
